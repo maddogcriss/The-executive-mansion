@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+    
+
+.container{
+    
+    margin: 0 150px;
+    font-size: 17px;
+     
+}
+
+.header{
+    
+    max-width: 300%;
+    margin: 0 200px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.header .seal{
+    max-width: 25%;
+    margin: auto;
+    
+}
+    
+
+
+.navBar{
+    background-color: rgba(148, 25, 25, 0.918);
+    padding: 18px;
+   
+}
+
+.navBar .List{
+    display: flex;
+    height: 35px;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+
+.List li{
+    list-style-type: none;
+}
+
+.List li a{
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+.division1{
+    display: inline-flex;
+    margin-top: 25px;
+    background-color: ghostwhite;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.division1 .presidentImage img{
+    max-width: 100%;
+    height: 300px;
+    
+}
+
+.division1 .rightTexts{
+    max-width: 35%;
+    margin-left : 10px;
+}
+
+.division1 .rightTexts .blueText{
+    font-size: 19.7px;
+    margin-top: 20px;
+    font-weight: 300;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.division1 .rightTexts p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.division1 .redLine{
+    
+    width: 100px;
+    border-bottom: 3px solid rgb(122, 24, 24);
+    margin-top: 5px;
+}
+
+.division2{
+    display: flex;
+}
+
+.division2 .vicePresident{
+    max-width: 25%;
+    width: 100%;
+}
+
+.division2 .vicePresident .grayBackground{
+    background-color: whitesmoke;
+    width: 75%;
+    margin-top: 4px;
+}
+.division2 .vicePresident .grayBackground .vpName{
+    font-weight: bold;
+    font-size: 8.8px;
+    text-align: center;
+    padding-top: 6px;
+}
+.division2 .vicePresident .grayBackground .vpTitle{
+    font-size: 8.8px;
+    text-align: center;
+    padding-top:1.5px;
+    padding-bottom: 3px;
+}
+
+.division2 .vicePresident .vpImage{
+    max-width: 100%;
+    width: 75%;
+    height: 175px;
+}
+
+.division2 .newsReleases {
+    padding: 5px 10px;
+}
+
+.division2 .newsReleases .newsHeadline{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.division2 .newsReleases .redLine{
+    
+    width: 100px;
+    border-bottom: 3px solid rgb(122, 24, 24);
+    margin-top: 4px;
+    margin-bottom: 20px;
+
+}
+.division2 .newsReleases .miniNews{
+    margin-top: 20px;
+}
+
+.division2 .newsReleases .miniNews .date{
+    color: grey;
+    font-size: 12px;
+}
+
+.division2  .recentDocument{
+    max-width: 30%;
+     width: 100%; 
+     margin-left: 20px;
+     
+    
+     
+}
+
+.verticalLine{
+    border: 1px solid lightgray;
+}
+
+.division2 .recentDocument .newsHeadline{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.division2 .recentDocument .greyLine{
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+.division2 .recentDocument .documents p{
+    font-size: 15px;
+    border-bottom: 1px solid lightgray;
+    margin: 20px 0 30px 0;
+
+}
+.division2 .recentDocument .redLine{
+    
+    width: 100px;
+    border-bottom: 3px solid rgb(122, 24, 24);
+    margin-top: 4px;
+    margin-bottom: 20px;
+
+}
+#top{
+    margin-top: 25px;
+}
+
+.division3{
+    display: flex;
+    margin-top: 30px;
+   
+}
+
+.division3 img{
+    margin-bottom: 150px; 
+    border-radius: 7px;
+    height: 420px;
+}
+
+
+ 
+
+.division3 .iconlist a{
+    color: red;
+    background-color: lightgray;
+    text-decoration: none;   
+    border-radius: 10px;
+    margin-left:30px;
+    display: inline-flex;
+    padding: 9%;
+    width: 98%;  
+    font-size: 18px;
+    margin-bottom: 10px;
+
+} 
+
+#document{
+    color: black;
+   
+}
+
+footer{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+    background-color: rgb(12, 12, 66);
+    padding-top: 150px;
+    padding-bottom: 110px;
+    color: white;
+    position: static;
+    
+
+}
+
+footer  li{
+    list-style: none;
+    margin-top: 10px;
+    
+}
+
+footer .footer-logo{
+    margin-left: 100px;
+}
+footer  li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .address .MOSFPA{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+footer .address{
+    padding-left: 10px;
+    margin-right: 100px;
+}
+
+footer .address p{
+    margin-top: 2px;
+
+}
+
+footer .homme{
+    margin-right: 100px;
+}
+
+
+.imgg img{
+    
+
+    width: auto;
+    height: auto;
+    margin-bottom: auto;
+    padding-top: auto;
+    margin-left: auto;
+    display: inline;
+} 
+
+.lasstt{
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.lasstt i{
+    padding-right: 10px;
+}
+
+#greater{
+    padding-right: 10px;
+}
+
+footer .homme li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+footer .presidentt li a:hover{
+    color: red;
+    text-decoration: underline;
+}
